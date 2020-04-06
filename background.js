@@ -1,5 +1,5 @@
 chrome.commands.onCommand.addListener(function (command) {
-  if (command === "activate") {
+  if (command === "activate_key") {
     chrome.tabs.executeScript(
       {
         file: "tabControl.js",
@@ -20,7 +20,7 @@ chrome.commands.onCommand.addListener(function (command) {
   }
 });
 chrome.commands.onCommand.addListener(function (command) {
-  if (command === "Toggle the click title option") {
+  if (command === "toggle_the_click_title") {
     chrome.tabs.executeScript(
       {
         file: "tabControl.js",

@@ -3,7 +3,7 @@
 
   "name": "Click and Save text",
   "description": "You can save the text in the internet page as text file.",
-  "version": "1.04",
+  "version": "1.05",
   "browser_action": {
     "default_popup": "popup.html"
   },
@@ -12,14 +12,14 @@
     "persistent": false
   },
   "commands": {
-    "activate": {
+    "activate_key": {
       "suggested_key": {
         "default": "Ctrl+Q",
         "mac": "Command+Q"
       },
       "description": "activate this to save the clicked text as text file."
     },
-    "Toggle the click title option": {
+    "toggle_the_click_title": {
       "suggested_key": {
         "default": "Ctrl+Shift+Q",
         "mac": "Command+Shift+Q"
